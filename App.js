@@ -17,10 +17,10 @@ const App = () => {
                     options={{
                         title: 'My Accounts',
                         headerStyle: {
-                            backgroundColor: 'white', // Header arka plan rengi
+                            backgroundColor: 'white',
                             height: 54
                         },
-                        headerTitle: props => <Image source={require('./src/Images/passwordstorage_headerText.png')} style={{width:220,height:48}} />, // Header resim
+                        headerTitle: props => <Image source={require('./src/Images/passwordstorage_headerText.png')} style={{width:220,height:48}} />,
                     }}
                 />
                 <Stack.Screen name="NewAccount" component={NewAccountScreen} options={{title:'Add New Account'}}/>
